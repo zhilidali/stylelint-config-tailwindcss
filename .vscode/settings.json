@@ -1,0 +1,27 @@
+{
+  /**
+   * File
+   */
+  // trim trailing whitespace when saving a file.
+  "files.trimTrailingWhitespace": true, // || .editorconfig#trim_trailing_whitespace
+  // insert a final new line at the end of the file when saving it.
+  "files.insertFinalNewline": true, // || .editorconfig#insert_final_newline
+  // will trim all new lines after the final new line at the end of the file when saving it.
+  "files.trimFinalNewlines": true,
+
+  /**
+   * Editor
+   */
+  // Render vertical rulers
+  "editor.rulers": [80],
+  // automatically detect `editor.tabSize` and `editor.insertSpaces`
+  "editor.detectIndentation": true, // overridden .editorconfig
+  // The number of spaces a tab is equal to
+  "editor.tabSize": 2, // overridden .editorconfig
+  // Insert spaces when pressing Tab
+  "editor.insertSpaces": true, // overridden .editorconfig
+  // Defines a default formatter
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Whether or not to take `.editorconfig` into account when parsing configuration.
+  "prettier.useEditorConfig": true,
+}

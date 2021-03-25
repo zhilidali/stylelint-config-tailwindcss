@@ -1,0 +1,31 @@
+{
+  "name": "stylelint-config-tailwindcss",
+  "version": "0.0.1",
+  "description": "tailwindcss shareable config for stylelint",
+  "main": "index.js",
+  "files": ["index.js"],
+  "scripts": {
+    "lint": "eslint '.' --ext .js"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "prettier": "^2.2.1"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelint-config",
+    "tailwindcss"
+  ],
+  "author": "zhilidali@qq.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhilidali/stylelint-config-tailwindcss.git"
+  },
+  "homepage": "https://github.com/zhilidali/stylelint-config-tailwindcss#readme",
+  "bugs": {
+    "url": "https://github.com/zhilidali/stylelint-config-tailwindcss/issues"
+  },
+  "license": "MIT"
+}
