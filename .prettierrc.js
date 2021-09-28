@@ -11,9 +11,6 @@ module.exports = {
   // Use single quotes instead of double quotes in JSX
   jsxSingleQuote: false,
 
-  // Put the > of a multi-line JSX element at the end of the last line instead of being alone on the next line.
-  jsxBracketSameLine: true, // false
-
   // Print trailing commas wherever possible when multi-line
   trailingComma: 'es5',
 
