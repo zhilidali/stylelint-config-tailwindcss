@@ -23,5 +23,5 @@
   // Defines a default formatter
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   // Whether or not to take `.editorconfig` into account when parsing configuration.
-  "prettier.useEditorConfig": true,
+  "prettier.useEditorConfig": true
 }

@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-tailwindcss",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "tailwindcss shareable config for stylelint",
   "main": "index.js",
   "files": [
@@ -10,14 +10,14 @@
     "lint": "eslint '.' --ext .js"
   },
   "devDependencies": {
-    "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "prettier": "^2.4.1"
+    "@epcor/eslint-config": "^0.0.2",
+    "@epcor/prettier-config": "^0.0.1",
+    "eslint": "^8.7.0",
+    "prettier": "^2.5.1"
   },
   "peerDependencies": {
-    "stylelint": "^13.13.1",
-    "tailwindcss": "^2.2.16"
+    "stylelint": ">=13.13.1",
+    "tailwindcss": ">=2.2.16"
   },
   "keywords": [
     "stylelint",
