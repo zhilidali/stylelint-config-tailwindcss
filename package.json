@@ -1,10 +1,11 @@
 {
   "name": "stylelint-config-tailwindcss",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "tailwindcss shareable config for stylelint",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "scss.js"
   ],
   "scripts": {
     "lint": "eslint '.' --ext .js"
