@@ -17,8 +17,19 @@ set your stylelint config to:
 ```diff
 {
   "extends": [
-    "eslint:recommended",
+    "stylelint-config-recommended",
 +   "stylelint-config-tailwindcss"
+  ]
+}
+```
+
+If you use `stylelint-config-sass-guidelines` or similar packages, you can use the following configuration to support rules such as `scss/at-rule-no-unknown`.
+
+```diff
+{
+  "extends": [
+    "stylelint-config-recommended",
++   "stylelint-config-tailwindcss/scss"
   ]
 }
 ```
