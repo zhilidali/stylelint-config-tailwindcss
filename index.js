@@ -7,6 +7,7 @@ module.exports = {
           'tailwind',
           'apply',
           'layer',
+          'config',
           /** tailwindcss v1, v2 */
           'variants',
           'responsive',
