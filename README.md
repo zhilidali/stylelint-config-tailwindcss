@@ -2,7 +2,7 @@
 
 [![NPM version](https://img.shields.io/npm/v/stylelint-config-tailwindcss.svg)](https://www.npmjs.org/package/stylelint-config-tailwindcss)
 
-tailwindcss shareable config for stylelint
+Tailwind CSS shareable config for Stylelint
 
 ## Installation
 
@@ -12,7 +12,7 @@ npm install stylelint-config-tailwindcss --save-dev
 
 ## Usage
 
-set your stylelint config to:
+Set your Stylelint config to:
 
 ```diff
 {
@@ -23,12 +23,12 @@ set your stylelint config to:
 }
 ```
 
-If you use `stylelint-config-sass-guidelines` or similar packages, you can use the following configuration to support rules such as `scss/at-rule-no-unknown`.
+If you use `stylelint-config-recommended-scss`, `stylelint-config-sass-guidelines` or similar packages, you can use the following configuration to support rules such as `scss/at-rule-no-unknown`.
 
 ```diff
 {
   "extends": [
-    "stylelint-config-recommended",
+    "stylelint-config-recommended-scss",
 +   "stylelint-config-tailwindcss/scss"
   ]
 }
