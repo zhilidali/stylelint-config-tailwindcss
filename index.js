@@ -12,6 +12,7 @@ module.exports = {
           'variant',
           'custom-variant',
           'plugin',
+          'reference',
           /** tailwindcss v3 */
           'tailwind',
           'apply',
