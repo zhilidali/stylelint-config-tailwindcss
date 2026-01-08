@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-tailwindcss",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "tailwindcss shareable config for stylelint",
   "main": "index.js",
   "files": [
